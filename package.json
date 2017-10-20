@@ -2,6 +2,7 @@
   "name": "react-geoidentify-country-selector.github.io",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://romanbon.github.io/react-geoidentify-country-selector.github.io/",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
