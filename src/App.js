@@ -74,7 +74,10 @@ class App extends Component {
         return (
             <div>
                 <CountrySelector
-                    defaultCountry="Georgia"
+                    defaultCountry="Georgia" // First priority
+                    // defaultISOALPHA2Code="KZ" // Second priority
+                    // defaultISOALPHA3Code="KEN" // Third priority
+                    // defaultISONumericalCode={410} // Fourth priority
                     getSelectedCountry={coutryObject => this.getSelectedCountry(coutryObject)}
                 />
             </div>
